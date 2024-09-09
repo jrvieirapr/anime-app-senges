@@ -40,17 +40,17 @@ const AnimeList = () => {
                             // nesse intervalo eu vou criar o cartao
                             <div className='col-md-4 mb-4' key={anime.mal_id}>
                                 <div className='card h-100'>
-                                    <img 
-                                    src={anime.images.jpg.large_image_url} 
-                                    alt={anime.title}
+                                    <img
+                                        src={anime.images.jpg.large_image_url}
+                                        alt={anime.title}
                                     />
                                     <div className="card-body">
                                         <h5 className="card-title">
                                             {anime.title}
                                         </h5>
                                         <Link to={`/anime/${anime.mal_id}`}
-                                        className='btn btn-primary'>Ver Detalhes</Link>
-                                    </div> 
+                                            className='btn btn-primary'>Ver Detalhes</Link>
+                                    </div>
                                 </div>
                             </div>
                         )

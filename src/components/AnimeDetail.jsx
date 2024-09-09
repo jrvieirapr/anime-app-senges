@@ -31,8 +31,8 @@ const AnimeDetail = () => {
                         <div className="card">
                             <div className="row">
                                 <div className="col-md-4">
-                                    <img src="{anime.images.jpg.large_image_url}"
-                                        alt="{anime.title}"
+                                    <img src={anime.images.jpg.large_image_url}
+                                        alt={anime.title}
                                         className="card-img"
                                     />
                                 </div>

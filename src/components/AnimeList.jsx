@@ -47,8 +47,6 @@ const AnimeList = () => {
                                     <div className="card-body">
                                         <h5 className="card-title">
                                             {anime.title}
-
-                                            
                                         </h5>
                                     </div> 
                                 </div>

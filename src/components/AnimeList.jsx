@@ -48,10 +48,11 @@ const AnimeList = () => {
                                         <h5 className="card-title">
                                             {anime.title}
                                         </h5>
+                                        <Link to={`/anime/${anime.mal_id}`}
+                                        className='btn btn-primary'>Ver Detalhes</Link>
                                     </div> 
                                 </div>
                             </div>
-
                         )
                     )
                 }
